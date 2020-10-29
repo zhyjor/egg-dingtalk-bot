@@ -8,7 +8,7 @@ module.exports = {
    * @member Application#dingtalk
    */
   dingtalkRobot(opts) {
-    const options = Object.assign({}, opts);
+    const options = Object.assign({}, this.config.dingtalkRobot, opts);
     options.urllib = this.httpclient;
     const robot = createDingtalkRobot(options);
     return robot;
