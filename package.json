@@ -1,5 +1,5 @@
 {
-  "name": "egg-dingtalk-bot",
+  "name": "eggjs-dingtalk-robot",
   "version": "0.0.1",
   "description": "dingtalk robot plugin for egg",
   "eggPlugin": {
